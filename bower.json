@@ -1,0 +1,38 @@
+{
+  "name": "md-accordion",
+  "version": "0.0.1",
+  "authors": [
+    "Djadoun Mohamed Abderrezak <abderrezak.djadoun@seerene.com>"
+  ],
+  "description": "An angular material accordion component based on the md-list Angular Material component",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-material": "^1.1.1"
+  },
+  "main": [
+    "material-accordion.js",
+    "material-accordion.css"
+  ],
+  "keywords": [
+    "angularjs",
+    "accordion",
+    "material",
+    "angular-material",
+    "md-list",
+    "md-accordion",
+    "angular"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zakardo/material-accordion.git"
+  },
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
