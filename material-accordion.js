@@ -77,7 +77,7 @@ function mdAccordionItemHeader($timeout) {
 
 		console.log(isOne)
 		element.on('click', function(){
-			if(isOne){
+			if(isOne != undefined){
 				if(element.parent().find('.md-accordion-item-body').hasClass('shown-element')){
 					console.debug("has class")
 					element.parent().find('.md-accordion-item-body').addClass('element-hidden');	
